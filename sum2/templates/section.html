@@ -1,0 +1,74 @@
+ {% extends "index.html" %} {% block content %}
+
+
+<!-- ======= Services Section ======= -->
+<section id="services" class="services section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+            <h3>Services</h3>
+            <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+        </header>
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100">
+                <div class="box">
+                    <img src="{{survice.0.image.url}}" alt="" style="width: 200px;height: 200px;">
+                    <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                    <h4>{{survice.0.name}}</h4>
+                    <p>{{survice.0.description}}</p>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="box">
+                    <img src="{{survice.1.image.url}}" alt="" style="width: 200px;height: 200px;">
+                    <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
+                    <h4>{{survice.1.name}}</h4>
+                    <p>{{survice.1.description}}</p>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                <div class="box">
+                    <img src="{{survice.2.image.url}}" alt="" style="width: 200px;height: 200px;">
+                    <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+                    <h4>{{survice.2.name}}</h4>
+                    <p>{{survice.2.description}}</p>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in" data-aos-delay="100">
+                <div class="box">
+                    <img src="{{survice.3.image.url}}" alt="" style="width: 200px;height: 200px;">
+                    <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+                    <h4>{{survice.3.name}}</h4>
+                    <p>{{survice.3.description}}</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200" ">
+            <div class=" box ">
+                <img src="{{survice.4.image.url}} " alt=" " style="width: 200px;height: 200px; ">
+                <div class="icon " style="background: #e1eeff; "><i class="ion-ios-world-outline " style="color: #2282ff; "></i></div>
+                <h4>{{survice.4.name}}</h4>
+                <p>{{survice.4.description}}</p>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4 " data-aos="zoom-in " data-aos-delay="300 ">
+            <div class="box ">
+                <img src="{{survice.5.image.url}} " alt=" " style="width: 200px;height: 200px; ">
+                <div class="icon " style="background: #ecebff; "><i class="ion-ios-clock-outline " style="color: #8660fe; "></i></div>
+                <h4>{{survice.5.name}}</h4>
+                <p>{{survice.5.description}}</p>
+            </div>
+            </div>
+
+            </div>
+
+        </div>
+</section><!-- End Services Section -->
+
+{% endblock content %}
